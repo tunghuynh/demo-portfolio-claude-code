@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tung Huynh - Full Stack Developer & Solution Architect</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="tech-background">
+        <canvas id="tech-canvas"></canvas>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <span class="brand-text">Tung Huynh</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="themeIcon"></i>
+                </button>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Tung Huynh</span>
+                    </h1>
+                    <p class="hero-subtitle">Full Stack Developer & Solution Architect</p>
+                    <p class="hero-description">
+                        Senior developer with 12+ years in full-stack development and 5+ years architecting enterprise solutions. 
+                        Currently building innovative systems at FPT Corporation.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-description">
+                        Senior Full Stack Developer & Solution Architect with extensive experience in enterprise systems
+                    </p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Senior Full Stack Developer with 12+ years of experience and Solution Architect with 5+ years specializing in enterprise-scale applications. 
+                            Currently working at <strong>FPT Corporation</strong>, one of Vietnam's leading technology companies, where I design and implement complex distributed systems.
+                        </p>
+                        <p>
+                            Graduated from <strong>ICTU (Institute of Cryptography Technology)</strong> with deep expertise in system architecture, microservices, IoT solutions, and monitoring systems. 
+                            I'm passionate about building scalable, secure, and high-performance applications that solve real-world business challenges.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Projects Delivered</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">12+</span>
+                                <span class="stat-label">Years Development</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Years Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user fa-5x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-description">
+                        A showcase of my recent work and side projects
+                    </p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-shopping-cart fa-3x"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <p class="project-description">
+                                Full-stack e-commerce solution with React, Node.js, and MongoDB. 
+                                Features include payment integration, admin dashboard, and real-time inventory.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-tasks fa-3x"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                Collaborative task management application with real-time updates, 
+                                drag-and-drop functionality, and team collaboration features.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">TypeScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Analytics Dashboard</h3>
+                            <p class="project-description">
+                                Interactive data visualization dashboard with real-time charts, 
+                                filters, and export functionality for business intelligence.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-mobile-alt fa-3x"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Mobile Weather App</h3>
+                            <p class="project-description">
+                                Cross-platform mobile weather application with location services, 
+                                detailed forecasts, and beautiful animated weather icons.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Redux</span>
+                                <span class="tech-tag">API Integration</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-description">
+                        Technologies and tools I work with on a daily basis
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-title">Frontend Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-desc">Semantic markup, accessibility, web standards</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">CSS3/SCSS</span>
+                                    <span class="skill-desc">Responsive design, animations, preprocessors</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">JavaScript ES6+</span>
+                                    <span class="skill-desc">Modern JS, async/await, modules</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">React.js</span>
+                                    <span class="skill-desc">Hooks, Context API, Redux, Next.js</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-vuejs"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Vue.js</span>
+                                    <span class="skill-desc">Composition API, Vuex, Nuxt.js</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-angular"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Angular</span>
+                                    <span class="skill-desc">TypeScript, RxJS, Angular Material</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">Backend & Architecture</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-desc">Express, NestJS, microservices</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-desc">Django, FastAPI, data processing</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-desc">Spring Boot, enterprise applications</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Databases</span>
+                                    <span class="skill-desc">MongoDB, PostgreSQL, Redis, ElasticSearch</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-sitemap"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">System Architecture</span>
+                                    <span class="skill-desc">Microservices, distributed systems, event-driven</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">API Design</span>
+                                    <span class="skill-desc">REST, GraphQL, gRPC, API Gateway</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">DevOps & Cloud</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Docker</span>
+                                    <span class="skill-desc">Containerization, multi-stage builds</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Kubernetes</span>
+                                    <span class="skill-desc">Orchestration, scaling, service mesh</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">AWS</span>
+                                    <span class="skill-desc">EC2, Lambda, RDS, S3, CloudFormation</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-google"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Google Cloud</span>
+                                    <span class="skill-desc">GKE, Cloud Functions, BigQuery</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code-branch"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">CI/CD</span>
+                                    <span class="skill-desc">Jenkins, GitLab CI, GitHub Actions</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-server"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Infrastructure</span>
+                                    <span class="skill-desc">Terraform, Ansible, load balancing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">IoT & Microcontrollers</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fas fa-microchip"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Arduino</span>
+                                    <span class="skill-desc">Embedded programming, sensor integration</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-broadcast-tower"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">ESP32/ESP8266</span>
+                                    <span class="skill-desc">WiFi modules, IoT connectivity</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-raspberry-pi"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Raspberry Pi</span>
+                                    <span class="skill-desc">Linux-based IoT solutions</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-network-wired"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">MQTT/CoAP</span>
+                                    <span class="skill-desc">IoT communication protocols</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-thermometer-half"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Sensors</span>
+                                    <span class="skill-desc">Temperature, humidity, motion, GPS</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-industry"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Industrial IoT</span>
+                                    <span class="skill-desc">SCADA, PLC integration, automation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">Monitoring & Observability</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fas fa-chart-line"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Prometheus</span>
+                                    <span class="skill-desc">Metrics collection, alerting rules</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Grafana</span>
+                                    <span class="skill-desc">Data visualization, dashboards</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-search"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">ELK Stack</span>
+                                    <span class="skill-desc">Elasticsearch, Logstash, Kibana</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-eye"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Jaeger/Zipkin</span>
+                                    <span class="skill-desc">Distributed tracing, performance</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-bell"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Alerting</span>
+                                    <span class="skill-desc">PagerDuty, Slack integration</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-heartbeat"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">APM</span>
+                                    <span class="skill-desc">Application performance monitoring</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">Mobile & Security</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">React Native</span>
+                                    <span class="skill-desc">Cross-platform mobile development</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-flutter"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Flutter</span>
+                                    <span class="skill-desc">Dart, native performance</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Security</span>
+                                    <span class="skill-desc">OAuth, JWT, encryption, OWASP</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-key"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Cryptography</span>
+                                    <span class="skill-desc">PKI, digital signatures, protocols</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-bug"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Testing</span>
+                                    <span class="skill-desc">Jest, Cypress, load testing</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <div class="skill-details">
+                                    <span class="skill-name">Version Control</span>
+                                    <span class="skill-desc">Git, branching strategies, code review</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-description">
+                        Ready to start your project? Let's discuss how we can work together
+                    </p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>tung.huynh@fpt.com.vn</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+84 (0) 123-456-789</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ho Chi Minh City, Vietnam</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-text">Tung Huynh</span>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tung Huynh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
